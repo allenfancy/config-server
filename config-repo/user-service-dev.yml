@@ -1,3 +1,13 @@
+com: 
+  zipkin: 
+    serviceName: USER-SERVICE
+    url: http://localhost:9411
+    connectTimeout: 10000
+    readTimeout: 1000
+    flushInterval: 1000
+    compressionEnabled: true
+    endpoint: http://localhost:9411
+    
 name: fancyallenwu
 # 端口信息
 server:
